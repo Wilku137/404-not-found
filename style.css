@@ -1,19 +1,15 @@
 header {
-  color: #333333;
   position: absolute;
-  width: 133px;
-  height: 25px;
   top: 40px;
   left: 77px;
+  width: 133px;
+  height: 25px;
   font-family: "Inconsolata", monospace;
-  font-weight: 700;
-  size: 24px;
-  line-height: 25.18px;
-  letter-spacing: -8%;
+  font-size: 20px;
+  color: #333333;
 }
 
 h1 {
-  color: #333333;
   position: absolute;
   width: 586px;
   height: 190px;
@@ -21,32 +17,38 @@ h1 {
   left: 735px;
   font-family: "Space Mono", monospace;
   font-style: normal;
-  font-weight: 700;
+  font-size: 60px;
   size: 64px;
   line-height: 94.78px;
   letter-spacing: -3.5%;
+  color: #333333;
 }
 
 p {
-  color: #333333;
-  position: absolute;
+  position: relative;
   width: 381px;
   height: 108px;
   top: 491px;
   left: 736px;
   font-family: "Space Mono", monospace;
-  font-weight: 400;
-  size: 24px;
+  font-size: 20px;
   line-height: 35.54px;
   letter-spacing: -3.5%;
+  color: #333333;
 }
 button {
-  color: #333333;
   position: absolute;
-  width: 216px;
   height: 68px;
   top: 663px;
   left: 740px;
+  width: 216px;
+  background-color: #333333;
+}
+
+a {
+  font-family: "Space Mono", monospace;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 img {
@@ -59,13 +61,8 @@ img {
 
 footer {
   position: absolute;
-  width: 287px;
-  height: 17px;
-  top: 1039px;
-  left: 577px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  size: 14px;
-  line-height: 17.07px;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  top: 50%;
 }
